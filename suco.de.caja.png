@@ -1,0 +1,1200 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+		<!-- Navegador obsoleto para o IE < 10 -->
+	<!--[IF lt IE 9]> <script type="text/javascript">location="http://browsehappy.com/"</script> <![endif]-->
+		
+	<!-- Meta
+	================================================== -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="https://pastelariacariri.deliveryon.com.br/assets/css/fa.min.css"/>
+	
+	<!-- Link
+	================================================== -->
+	<link href="https://pastelariacariri.deliveryon.com.br/assets/ico/favicon.png" rel="icon" sizes="64x64">
+	<link href="https://pastelariacariri.deliveryon.com.br/assets/ico/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="https://pastelariacariri.deliveryon.com.br/assets/bootstrap/css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="https://pastelariacariri.deliveryon.com.br/assets/css/app.css?v=2.2"/>
+	<link rel="stylesheet" type="text/css" href="https://pastelariacariri.deliveryon.com.br/assets/css/flipclock.css?v=2.0"/>	
+
+	<style type="text/css">
+/* ==========================================================================
+   Estilos Personalizados
+   ========================================================================== */
+
+   
+   /**
+    * Cor 1
+	*/
+	.a59166c4d42 {
+		background: #bf102f; /* Cor 1 */
+	}
+	.a59166c4d42,
+	.a59166c4d42 p,
+	.a59166c4d42 a,
+	.a59166c4d42 a:hover {
+		color: #FFFFFF; /* Cor 1 Texto */
+	}
+	
+
+   
+   /**
+    * Cor 2
+	*/
+	.b43e8d9c50e {
+		background: #808080; /* Cor 2 */
+	}
+	.b43e8d9c50e,
+	.b43e8d9c50e p,
+	.b43e8d9c50e a,
+	.b43e8d9c50e a:hover {
+		color: #FFFFFF !important; /* Cor 2 Texto */
+	}
+	
+
+   
+   /**
+    * Botão Add Carrinho
+	*/
+	.fe1ee061b2 {
+		color: #FFFFFF; /* Cor 1 Texto */
+		background: #bf102f; /* Cor 1 */
+	}
+	.fe1ee061b2:hover {
+		color: #FFFFFF; /* Cor 1 Texto Hover */	
+		background: #8E120F; /* Cor 1 Hover  */
+	}
+	
+
+   
+   /**
+    * Texto 1
+	*/
+	.f93b952886 p,
+	a.f93b952886,
+	.f93b952886 a,
+	.f93b952886 {
+		color: #bf102f;  /* Cor 1 */
+		border-color: #bf102f; /* Cor 1 */
+	}
+	a.f93b952886:hover,
+	.f93b952886 a:hover {
+		color: #A40D14;  /* Cor 3 Texto */
+	}
+	
+
+   
+   /**
+    * Texto 2
+	*/
+	.cd5d3fc6cd p,
+	.cd5d3fc6cd a,
+	.cd5d3fc6cd {
+		color: #808080; /* Cor 2 */
+		border-color: #808080; /* Cor 2 */
+	}
+	.cd5d3fc6cd a:hover {
+		color: #33699F; /* Cor 4 Texto */ 
+	}
+	
+	
+	
+	/**
+	 * Borda 1
+	 */
+	.fdbf01f33f {
+		border-color: #bf102f !important; /* Cor 1 */
+	}
+	
+	
+	
+	/**
+	 * Borda 1
+	 */
+	.sdfh5fg634 {
+		border-color: #808080 !important; /* Cor 2 */
+	}
+	
+	
+	
+	/**
+	 * Categorias Active
+	 */
+	.sidebar-categorias .active a,
+	.sidebar-categorias .active {
+		color: #FFFFFF !important; /* Cor 1 Texto */
+		background-color: #808080 !important; /* Cor 2 */
+	}
+</style>		<meta itemprop="image" content="https://pastelariacariri.deliveryon.com.br/uploads/capas_sociais/capa_padrao.jpg">
+		<meta property="og:locale" content="pt_BR" />	
+	    <meta property="og:type" content="website" />
+		<meta property="og:site_name" content="Pastelaria Cariri" />
+		<meta property="og:title" content="Pastelaria Cariri | Deu fome? DeliveryOn" />
+		<meta property="og:description" content="Os melhores deliveries de sua cidade em um único lugar" />	
+		<meta property="og:url" content="https://pastelariacariri.deliveryon.com.br/" />
+		<meta property="og:image" content="https://pastelariacariri.deliveryon.com.br/uploads/capas_sociais/capa_padrao.jpg"/>
+		<meta property="fb:app_id" content="1058629954233261"/>
+		<title>Suco de Cajá - Pastelaria Cariri - DeliveryOn</title>
+	<link rel="stylesheet" type="text/css" href="https://pastelariacariri.deliveryon.com.br/assets/css/sweetalert.css">
+	<link rel="stylesheet" type="text/css" href="https://pastelariacariri.deliveryon.com.br/assets/css/pdv-v1-bee-delivery.css" />
+	<link rel="stylesheet" type="text/css" href="https://pastelariacariri.deliveryon.com.br/assets/css/pdv-entrega-on.css?v=1.1" />
+</head>
+<body>
+	
+	<!-- Header -->
+	
+<!-- Menu Top -->
+<div class="menuTop">
+	<div class="container">
+		<div class="logoMenu">
+			<a href="https://deliveryon.com.br" title="DeliveryOn - Aumente suas vendas com pedidos pela internet."><img src="https://pastelariacariri.deliveryon.com.br/assets/img/logo-footer.png?v=2.0" alt="DeliveryOn - Aumente suas vendas com pedidos pela internet" height="60"></a>
+		</div>
+		
+		<!-- Menu Principal -->
+		<button class="button-menuTop">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		
+		<div class="both-responsive"></div>
+		
+		<div class="nav-menuTop">
+			<ul class="links-menuTop">
+				<li class="active"><a href="https://pastelariacariri.deliveryon.com.br/home">Home</a></li>
+				<li><a href="https://pastelariacariri.deliveryon.com.br/minha_conta">Minha Conta</a></li>
+							  <li><a href="https://pastelariacariri.deliveryon.com.br/minha_conta/pedidos">Meus Pedidos</a></li><li class="registro"><a href="https://pastelariacariri.deliveryon.com.br/login">Login</a></li>			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- Header -->
+<div class="wrp">
+	<div class="header">
+
+		<!-- Logotipo -->
+		
+		<div class="bg">
+			<div class="dadosCliente">
+				<div class="row">
+					<div class="col-md-2 col-sm-2">
+						<div class="logoCliente" alt="Pastelaria Cariri" style="background-image:url(https://s3-sa-east-1.amazonaws.com/deliveryon-uploads/logos_clientes/pastelariacariri/5b2015cc173a4.png);"></div>
+					</div>
+					
+					<div class="col-md-8 col-sm-8" id="boxDados">
+						<h1>Pastelaria Cariri</h1>
+						<small>Pastelaria | Crato - CE</small>
+						<br>
+
+						<div style="display: flow-root;">
+
+							<!-- Horário de Funcionamento -->
+							<div class="boxAlerta" id="boxHorariosFuncionamento" style="margin-bottom: 15px;">
+							<span class="pull-left"><b>Horários de Entrega</b><br>Dom, Seg, Ter, Qua, Qui, Sex, Sab<span class="glyphicon glyphicon-chevron-down arrow-down-horarios"></span>
+											<div class="both"></div>
+											<div class="panel panel-default hide" id="panelHorarios">
+											<div class="panel-body">
+												<ul class="list-group" id="listaHorarios">
+													<li class="list-group-item">
+																<div class="col-md-4 text-left">
+																	<strong>Dom:</strong>
+																</div>
+																<div class="col-md-8 text-right">18:30 às 00:00hs</div><div class="both"></div></li><li class="list-group-item">
+																<div class="col-md-4 text-left">
+																	<strong>Seg:</strong>
+																</div>
+																<div class="col-md-8 text-right">18:30 às 00:00hs</div><div class="both"></div></li><li class="list-group-item">
+																<div class="col-md-4 text-left">
+																	<strong>Ter:</strong>
+																</div>
+																<div class="col-md-8 text-right">18:30 às 00:00hs</div><div class="both"></div></li><li class="list-group-item">
+																<div class="col-md-4 text-left">
+																	<strong>Qua:</strong>
+																</div>
+																<div class="col-md-8 text-right">18:30 às 00:00hs</div><div class="both"></div></li><li class="list-group-item">
+																<div class="col-md-4 text-left">
+																	<strong>Qui:</strong>
+																</div>
+																<div class="col-md-8 text-right">18:30 às 00:00hs</div><div class="both"></div></li><li class="list-group-item">
+																<div class="col-md-4 text-left">
+																	<strong>Sex:</strong>
+																</div>
+																<div class="col-md-8 text-right">18:30 às 00:00hs</div><div class="both"></div></li><li class="list-group-item">
+																<div class="col-md-4 text-left">
+																	<strong>Sab:</strong>
+																</div>
+																<div class="col-md-8 text-right">18:30 às 00:00hs</div><div class="both"></div></li>
+												</ul>
+											</div>
+											</div>							</div>
+
+
+													</div>
+
+						<!-- Status de Entrega -->
+						<div class="status-entrega" data-statusentrega="3">
+							<span id="status-1"><i class="glyphicon glyphicon-ok"></i> Realizando entregas</span>
+							<span id="status-2"><i class="glyphicon glyphicon-pencil"></i> Aceitando pedidos adiantados</span>
+							<span id="status-3"><i class="glyphicon glyphicon-info-sign"></i> Fora do horário de entregas</span>
+							<span id="status-4"><i class="glyphicon glyphicon-time"></i> Verificando horário...</span>
+						</div>
+
+					</div>
+					
+					<!-- Resumo Carrinho -->
+										<div class="col-md-2 col-sm-2 resumoCarrinho" data-href="https://pastelariacariri.deliveryon.com.br/meu_carrinho" data-location="true" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Visualizar o Carrinho">
+						<div class="pResumoCarrinho">
+							<div class="valor-resumoCarrinho">					
+								<p>Meu Carrinho</p>								<div class="itens-resumoCarrinho"><div class="total-itens-resumoCarrinho a59166c4d42 qtd-itens-cart">00</div></div>				
+								<h5 class="f93b952886" id="vr-itens-cart">0,00</h5>
+							</div>
+						</div>
+					</div>
+
+				</div> 
+
+			</div>
+		</div>
+		
+		<!-- Menu de Produtos -->
+		<div class="menu-produtos">
+			<div id="todasCategorias">
+				<a id="btntodasCategorias" class="link-todasCategorias f93b952886"> Todas as Categorias <span class="caret"></span> </a>				<ul class="itens-todasCategorias malihu hide" data-mcs-theme="dark" aria-labelledby="dropdownMenu1">
+					<li><a href="https://pastelariacariri.deliveryon.com.br/produtos/categoria/5">Bebidas</a></li><li><a href="https://pastelariacariri.deliveryon.com.br/produtos/categoria/3">Monte Seu Cachorro Quente</a></li><li><a href="https://pastelariacariri.deliveryon.com.br/produtos/categoria/1">Monte Seu Pastel</a></li><li><a href="https://pastelariacariri.deliveryon.com.br/produtos/categoria/2">Monte Seu Pastel Doce</a></li><li><a href="https://pastelariacariri.deliveryon.com.br/produtos/categoria/4">Sucos</a></li>				</ul>
+			</div>
+			<ul class="links-menu-destaque cd5d3fc6cd hidden-xs hidden-tb">
+				<li>&nbsp;</li>			</ul>
+		</div>
+		
+		
+		<!-- Pesquisar Produtos -->
+		<div class="pesquisar-produtos a59166c4d42">
+			<form action="https://pastelariacariri.deliveryon.com.br/produtos/pesquisa" method="post" accept-charset="utf-8"><div style="display:none">
+<input type="hidden" name="deliveryT" value="180d4a93a1e5ef5041fda3befa65f6e8" />
+</div>				<input type="text" name="pesquisa" class="form-control input-pesquisa" placeholder="Digite o que você procura..."/>
+				<a id="btn-pesquisarProduto" class="btn b43e8d9c50e">
+					<span class="hidden-xs glyphicon glyphicon-search"></span>
+					<span class="visible-xs">Pesquisar</span>
+				</a>
+				<input type="submit" class="hide" name="submit-pesquisa" id="pesquisarProduto" />
+			</form>
+		</div>
+		
+	</div>
+
+	<div class="both"></div>
+</div>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+	$('#btn_recarga_saldo').click(function(){
+		window.open('https://www.beedelivery.com.br/login');
+	});
+
+	$('#btn_entrega_amiga').click(function(){
+		window.open('https://pastelariacariri.deliveryon.com.br/entrega_amiga');
+	});
+</script>	
+	
+	<!-- Conteúdo Principal -->
+	<section class="main">
+		
+		<!-- Caminho do Produto -->
+		<div class="breadcrumb-produto">
+			<ol class="breadcrumb">
+				<li><a href="https://pastelariacariri.deliveryon.com.br/home">Home</a></li>
+				<li><a href="https://pastelariacariri.deliveryon.com.br/produtos/categoria/4">Sucos</a></li>
+				<li class="active">Suco de Cajá</li>
+			</ol>
+		</div>
+		
+		
+		<!-- Foto do Produto -->
+		<div class="foto-produto">
+			<span class="helper"></span>
+			<img src="https://s3-sa-east-1.amazonaws.com/deliveryon-uploads/products/pastelariacariri/10_5b4df814f1cea.png" alt="Suco de Cajá" title="Suco de Cajá" />
+		</div>
+		
+		
+		<!-- Dados do Produto -->
+		<div class="dados-produto resume-products" data-id-produto="10">
+			<h1>Suco de Cajá</h1>
+			<h4 class="codigo-produto">Código:10</h4>
+			
+			<div class="hr-dotted"></div>
+			
+			<p>Descrição: Possível adicionar Leite</p>
+			
+			<div class="hr-dotted"></div>
+			
+			<form action="https://pastelariacariri.deliveryon.com.br/meu_carrinho" id="form" method="post" accept-charset="utf-8"><div style="display:none">
+<input type="hidden" name="deliveryT" value="180d4a93a1e5ef5041fda3befa65f6e8" />
+</div>
+<input type="hidden" name="id_produto" value="10" />
+<input type="hidden" name="add_produto" value="1" />
+<div class="monte-seu-produto">
+						  <h3>Que tal incrementar seu lanche?</h3><p>Além de utilizarmos os melhores ingredientes, oferecemos adicionais para deixar sua refeição ainda mais gostosa.</p><a href="#" class="btn btn-primary btn-circle btn-build-product">MONTE SEU PRODUTO</a>
+						  </div>			
+			<!-- Observações -->			
+			<div class="form-group">
+				<label for="observacaoPedido">Gostaria de fazer alguma observação?</label>
+				<textarea name="obs" id="observacaoPedido" cols="30" rows="4" class="form-control obs-produto"></textarea>
+			</div>
+			
+			
+			<!-- Comprar Produto -->
+			<div class="comprar-produto box-products" data-fracionada="0">
+				
+				<!-- Preço -->
+				<div class="p">
+					<div class="a">Preço Un.: <span id="vr_produto">3,00</span></div>
+					<div class="n cd5d3fc6cd">R$ <span id="vr_subtotal">3,00</span></div>
+				</div>
+				
+				<!-- Quantidade -->
+				<div class="q">	
+					<label>Quantidade</label><div class="both"></div>
+					<div class="q-group">
+						<button class="qnt-itens-btn bm form-control remove-qtd"><span class="glyphicon glyphicon-minus"></span></button>
+						<input type="text" name="qtd_produto" value="1" class="qnt-itens-input form-control numero input-qtd" maxlength="3" />						<button class="qnt-itens-btn bp form-control add-qtd"><span class="glyphicon glyphicon-plus"></span></button>
+					</div>
+				</div>
+				
+				<div class="both-tablet"></div>
+				
+				<!-- Add Carrinho -->
+				<div class="b">
+					<a class="btn-carrinho fe1ee061b2 btn-add-cart"><span class="glyphicon glyphicon-shopping-cart"></span> Adicionar ao Carrinho</a>
+				</div>
+
+				</form>
+				
+				<div class="both"></div>
+			</div>
+			
+			
+		</div>
+		
+		<div class="both"></div>		
+	
+	</section>
+	
+	
+	<!-- Produtos Relacionados -->
+	<section class="main grid-produtos-home">
+				
+				<div class="title-h2">
+					<h2 class="cd5d3fc6cd">Veja também</h2>
+				</div>
+					
+				<div class="both"></div>
+					
+				<div class="box-produtos box-products" data-cozinha="0" data-fracionada="0" data-id-produto="9" data-grid-position="1">
+			
+												<!-- Imagem do Produto -->
+												<div class="box-produtos-thumb">
+													<a href="https://pastelariacariri.deliveryon.com.br/produtos/ver/9" title="Suco de Caju">
+														<span class="helper"></span><img src="https://s3-sa-east-1.amazonaws.com/deliveryon-uploads/products/pastelariacariri/9_5b4df8387fdd5.jpg" alt="Suco de Caju"/>
+													</a>
+												</div>						
+												
+												<!-- Descrição do Produtos -->
+												<div class="text-center">
+													<div class="box-produtos-descricao">					
+														<a href="https://pastelariacariri.deliveryon.com.br/produtos/ver/9" class="dproduto f93b952886">Suco de Caju</a>
+													</div>
+													<p class="pproduto cd5d3fc6cd">R$ 3,00</p>
+												</div>
+												
+												<!-- Quantidade Produto -->
+												<div class="qnt-itens">
+													<button class="qnt-itens-btn form-control remove-qtd"><span class="glyphicon glyphicon-minus"></span></button><input type="text" name="qtd_produto" value="1" class="qnt-itens-input form-control numero input-qtd" maxlength="3" />	<button class="qnt-itens-btn form-control add-qtd"><span class="glyphicon glyphicon-plus"></span></button>
+												</div>
+												
+												<!-- Adicionar ao Carrinho -->
+												<a class="btn-carrinho fe1ee061b2 btn-add-cart" data-mostrar-dialogo="1" data-permite-particoes="N" data-permite-adicionais="S"><span class="glyphicon glyphicon-shopping-cart"></span> Adicionar ao Carrinho</a>
+												
+												<div class="both"></div>
+
+											   	<span class="loader-cart hide"><img src="https://pastelariacariri.deliveryon.com.br/assets/img/loader.gif" /></span>
+
+											</div><div class="box-produtos box-products" data-cozinha="0" data-fracionada="0" data-id-produto="8" data-grid-position="2">
+			
+												<!-- Imagem do Produto -->
+												<div class="box-produtos-thumb">
+													<a href="https://pastelariacariri.deliveryon.com.br/produtos/ver/8" title="Suco de Abacaxi C/hortelã">
+														<span class="helper"></span><img src="https://s3-sa-east-1.amazonaws.com/deliveryon-uploads/products/pastelariacariri/8_5b4df7b47bd6e.jpg" alt="Suco de Abacaxi C/hortelã"/>
+													</a>
+												</div>						
+												
+												<!-- Descrição do Produtos -->
+												<div class="text-center">
+													<div class="box-produtos-descricao">					
+														<a href="https://pastelariacariri.deliveryon.com.br/produtos/ver/8" class="dproduto f93b952886">Suco de Abacaxi C/hortelã</a>
+													</div>
+													<p class="pproduto cd5d3fc6cd">R$ 3,00</p>
+												</div>
+												
+												<!-- Quantidade Produto -->
+												<div class="qnt-itens">
+													<button class="qnt-itens-btn form-control remove-qtd"><span class="glyphicon glyphicon-minus"></span></button><input type="text" name="qtd_produto" value="1" class="qnt-itens-input form-control numero input-qtd" maxlength="3" />	<button class="qnt-itens-btn form-control add-qtd"><span class="glyphicon glyphicon-plus"></span></button>
+												</div>
+												
+												<!-- Adicionar ao Carrinho -->
+												<a class="btn-carrinho fe1ee061b2 btn-add-cart" data-mostrar-dialogo="1" data-permite-particoes="N" data-permite-adicionais="S"><span class="glyphicon glyphicon-shopping-cart"></span> Adicionar ao Carrinho</a>
+												
+												<div class="both"></div>
+
+											   	<span class="loader-cart hide"><img src="https://pastelariacariri.deliveryon.com.br/assets/img/loader.gif" /></span>
+
+											</div><div class="box-produtos box-products" data-cozinha="0" data-fracionada="0" data-id-produto="7" data-grid-position="3">
+			
+												<!-- Imagem do Produto -->
+												<div class="box-produtos-thumb">
+													<a href="https://pastelariacariri.deliveryon.com.br/produtos/ver/7" title="Suco de Graviola">
+														<span class="helper"></span><img src="https://s3-sa-east-1.amazonaws.com/deliveryon-uploads/products/pastelariacariri/7_5b4df86f65331.png" alt="Suco de Graviola"/>
+													</a>
+												</div>						
+												
+												<!-- Descrição do Produtos -->
+												<div class="text-center">
+													<div class="box-produtos-descricao">					
+														<a href="https://pastelariacariri.deliveryon.com.br/produtos/ver/7" class="dproduto f93b952886">Suco de Graviola</a>
+													</div>
+													<p class="pproduto cd5d3fc6cd">R$ 3,00</p>
+												</div>
+												
+												<!-- Quantidade Produto -->
+												<div class="qnt-itens">
+													<button class="qnt-itens-btn form-control remove-qtd"><span class="glyphicon glyphicon-minus"></span></button><input type="text" name="qtd_produto" value="1" class="qnt-itens-input form-control numero input-qtd" maxlength="3" />	<button class="qnt-itens-btn form-control add-qtd"><span class="glyphicon glyphicon-plus"></span></button>
+												</div>
+												
+												<!-- Adicionar ao Carrinho -->
+												<a class="btn-carrinho fe1ee061b2 btn-add-cart" data-mostrar-dialogo="1" data-permite-particoes="N" data-permite-adicionais="S"><span class="glyphicon glyphicon-shopping-cart"></span> Adicionar ao Carrinho</a>
+												
+												<div class="both"></div>
+
+											   	<span class="loader-cart hide"><img src="https://pastelariacariri.deliveryon.com.br/assets/img/loader.gif" /></span>
+
+											</div><div class="box-produtos box-products" data-cozinha="0" data-fracionada="0" data-id-produto="6" data-grid-position="4">
+			
+												<!-- Imagem do Produto -->
+												<div class="box-produtos-thumb">
+													<a href="https://pastelariacariri.deliveryon.com.br/produtos/ver/6" title="Suco de Acerola">
+														<span class="helper"></span><img src="https://s3-sa-east-1.amazonaws.com/deliveryon-uploads/products/pastelariacariri/6_5b4df7eb492c3.jpg" alt="Suco de Acerola"/>
+													</a>
+												</div>						
+												
+												<!-- Descrição do Produtos -->
+												<div class="text-center">
+													<div class="box-produtos-descricao">					
+														<a href="https://pastelariacariri.deliveryon.com.br/produtos/ver/6" class="dproduto f93b952886">Suco de Acerola</a>
+													</div>
+													<p class="pproduto cd5d3fc6cd">R$ 3,00</p>
+												</div>
+												
+												<!-- Quantidade Produto -->
+												<div class="qnt-itens">
+													<button class="qnt-itens-btn form-control remove-qtd"><span class="glyphicon glyphicon-minus"></span></button><input type="text" name="qtd_produto" value="1" class="qnt-itens-input form-control numero input-qtd" maxlength="3" />	<button class="qnt-itens-btn form-control add-qtd"><span class="glyphicon glyphicon-plus"></span></button>
+												</div>
+												
+												<!-- Adicionar ao Carrinho -->
+												<a class="btn-carrinho fe1ee061b2 btn-add-cart" data-mostrar-dialogo="1" data-permite-particoes="N" data-permite-adicionais="S"><span class="glyphicon glyphicon-shopping-cart"></span> Adicionar ao Carrinho</a>
+												
+												<div class="both"></div>
+
+											   	<span class="loader-cart hide"><img src="https://pastelariacariri.deliveryon.com.br/assets/img/loader.gif" /></span>
+
+											</div>
+				
+				<div class="both"></div>
+			</section>	
+	
+	<!-- Footer -->
+	
+<!-- Modal de Promoções Relâmpago do Cliente -->
+<div id="modal-promocoes-cliente" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Promoções Relâmpago</h4>
+      </div>
+      <div id="body-promocoes-cliente" class="modal-body">
+      	<p>Você está participando das seguintes promoções relâmpago e poderá escolher se quer utilizar o desconto na tela de <strong>Finalizar Pedido</strong>, logo após ao carrinho:</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- Modal de Detalhar Descricao dos Produtos -->
+<div id="modal-detalhar-item" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 id="detalhar-item-title" class="modal-title" style="font-weight: bold">[Nome Produto]</h4>
+      </div>
+      <div id="detalhar-item-body" class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>        
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- Modal de Resumo do Carrinho -->
+<div id="modal-resumo-carrinho" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-body" style="padding-top: 0px;">
+
+      				<div class="resumoCarrinho" style="float:none; padding: 10px 15px 15px 8px; margin-top: 10px; width: 268px;" data-href="https://pastelariacariri.deliveryon.com.br/meu_carrinho" data-location="true" data-toggle="tooltip" data-placement="bottom" title="Visualizar o Carrinho">
+				<div class="pResumoCarrinho">
+					<div class="itens-resumoCarrinho">
+						<div class="total-itens-resumoCarrinho a59166c4d42 qtd-itens-cart">00</div>
+					</div>
+		
+				<div class="valor-resumoCarrinho">
+					<p>Meu Carrinho</p>					
+					<h5 class="f93b952886" id="vr-itens-cart-modal">0,00</h5>
+				</div>
+			</div>
+		</div>
+
+		<a class="btn btn-acao-carrinho btn-primary btnVoltar" data-dismiss="modal" style="width:100%">Continuar Pedido</a>
+		<button class="btn btn-acao-carrinho btn-success btn-finish btnfinalizarCompra" onClick="finalizarPedido()" style="width:100%">Finalizar Pedido</button>
+
+		<div class="both"></div>
+
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- Modal Promoção do Aplicativo -->
+<div id="modal-promo-app" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+
+      <div class="text-center">
+      	<img src="https://pastelariacariri.deliveryon.com.br/assets/img/promo-app.png" width="100%" title="Chegou o novo aplicativo do Adriano Pizzas" alt="Chegou o novo aplicativo do Adriano Pizzas" />
+      </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>        
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- Modal Entrega Bee -->
+<div id="modal_entrega" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" id="modal_header_entrega">
+        <button type="button" class="close close-entrega" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body-entrega">
+        <div class='beedelivery text-center' style="padding:25px" data-id-entrega=''>
+          <p style='border: 1px solid #33333326;border-radius: 15px 50px; padding: 3px;'>
+            <img id='bee_delivery_img' src='https://pastelariacariri.deliveryon.com.br/assets/img/icone_entrega.png'/></p>
+            <img id='loader_bee_delivery' src='https://pastelariacariri.deliveryon.com.br/assets/img/loader.gif' class='hide'/>
+          <ul class='timeline hide'>
+            <li class='a-caminho active'>A caminho</li><li class='chegou-estab'>Chegou ao local</li><li class='saiu-entrega'>Saiu p/ entrega</li><li class='entregue'>Entregue</li>
+            <li id='retorno_entregador' class="retorno-entregador">Retornando</li>
+            <li class='finalizado'>Finalizado</li>
+          </ul>
+          <div class="buscando-entrega hide">
+            <p style="padding: 7px; font-size:18px;font-weight: bold;">
+              Buscando Entregador</p>
+            <p class="tempo-decorrido" style="padding: 7px; font-size: 18px;">Tempo Decorrido: <span class="timer"></span> <img src="https://pastelariacariri.deliveryon.com.br/assets/img/loader.gif"></p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer modal-footer-entrega">
+        <button type="button" class="btn btn-primary btn-fechar-entrega" data-dismiss="modal">Fechar</button> 
+        <button type="button" class="btn btn-danger btn-cancelar-solicitacao hide" data-id-pedido="">Cancelar Solicitação</button>
+        <img src="https://pastelariacariri.deliveryon.com.br/assets/img/loader.gif" class="loader-cancelar-solicitacao hide">
+        <button type="button" class="btn btn-default btn-finalizar-entrega hide" data-id-pedido="">Finalizar Entrega</button>
+        <button type=""></button>       
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<form action="https://pastelariacariri.deliveryon.com.br/meu_carrinho/finalizar_pedido" id="form_finalizar_pedido" class="hide" method="post" accept-charset="utf-8"><div style="display:none">
+<input type="hidden" name="deliveryT" value="180d4a93a1e5ef5041fda3befa65f6e8" />
+</div><input type="hidden" name="endereco_entrega" value="0" />
+		  <input type="submit" name="submit_carrinho" value="&nbsp;" />
+		  </form>
+<footer class="footer">
+	
+	<!-- Menu Footer -->
+  <div class="menu-footer">
+  
+    <div class="container">
+      
+      <div class="row">
+
+      <!-- INICIO DO BOX LINKS -->
+      <div class="col-md-8 col-sm-8 box-footer">
+        <div class="row">
+        <div class="col-md-3 col-sm-3">
+          <div class="marcant">
+            <a href="https://deliveryon.com.br" title="DeliveryOn - Aumente suas vendas com pedidos pela internet" target="_blank">
+              <img src="https://pastelariacariri.deliveryon.com.br/assets/img/logo-footer.png?v=2.0" alt="DeliveryOn - Aumente suas vendas com pedidos pela internet">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3">
+          <h3>Como Funciona</h3>
+          <ul>
+            <li><a href="https://pastelariacariri.deliveryon.com.br/como_funciona/formas_pagamento">Formas de Pagamento</a></li>
+            <li><a href="https://pastelariacariri.deliveryon.com.br/como_funciona/entregas">Locais de Entrega</a></li>
+            <li><a href="https://pastelariacariri.deliveryon.com.br/como_funciona/onde_estamos">Onde Estamos</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-md-3 col-sm-3">
+          <h3>Produtos</h3>
+          <ul>
+            <li><a href="https://pastelariacariri.deliveryon.com.br/home">Ofertas</a></li>         
+          </ul>
+        </div>
+        
+        <div class="col-md-3 col-sm-3">
+          <h3>Institucional</h3>
+          <ul>
+            <!-- <li><a href="https://pastelariacariri.deliveryon.com.br/contato">Fale Conosco</a></li> -->
+            <li><a href="https://pastelariacariri.deliveryon.com.br/minha_conta">Minha Conta</a></li>
+            <li><a href="https://pastelariacariri.deliveryon.com.br/minha_conta/pedidos">Meus Pedidos</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+      <!-- FIM DO BOX LINKS -->
+      <!-- BOTOES DO RODAPE -->
+      <div class="col-md-3 col-sm-3 btn-footer">
+      	      <!-- <a href="https://pastelariacariri.deliveryon.com.br/cadastro">Cadastre-se</a> -->
+	      <a href="https://pastelariacariri.deliveryon.com.br/login">Efetuar Login</a>
+	        </div>
+      <!-- FIM BOTOES DO RODAPE -->
+      <!-- LINKS SOCIAIS -->
+      <div class="col-md-1 col-sm-1 social-footer">
+        Siga nossas páginas:<br><br>
+        <a class="fa fa-facebook" href="https://www.facebook.com/deliveryonapp" target="_blank"></a> <a class="fa fa-instagram" href="https://www.instagram.com/deliveryonapp" target="_blank"></a>
+      </div>
+      <!-- FIM LINKS SOCIAIS -->
+      </div>
+    </div>  
+  
+  </div>
+  
+  <!-- Copyright -->
+  <div class="copyright-bar">
+  
+    <p>Copyright 2025 © DeliveryOn - Todos os direitos reservados | Aumente suas vendas com pedidos pela internet </p>
+  
+  </div>
+
+</footer>
+
+
+<!-- JavaScript
+================================================== -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://pastelariacariri.deliveryon.com.br/assets/bootstrap/js/bootstrap.js"></script>
+<script src="https://pastelariacariri.deliveryon.com.br/assets/js/bootbox.min.js"></script>
+<script src="https://pastelariacariri.deliveryon.com.br/assets/js/maskcore.min.js"></script>
+<script src="https://pastelariacariri.deliveryon.com.br/assets/js/mask.js?v=1.2"></script>
+<script src="https://pastelariacariri.deliveryon.com.br/assets/js/mask-money.js"></script>
+<script src="https://pastelariacariri.deliveryon.com.br/assets/js/mask-3-decimals.js"></script>
+<script src="https://pastelariacariri.deliveryon.com.br/assets/js/app.js?v=2.4"></script>
+<script src="https://pastelariacariri.deliveryon.com.br/assets/js/malihu.js"></script>
+<script src="https://pastelariacariri.deliveryon.com.br/assets/js/smart-app-banner.js"></script>
+<script type="text/javascript" src="https://pastelariacariri.deliveryon.com.br/assets_admin/plugins/qztray/dependencies/rsvp-3.1.0.min.js"></script>
+<script type="text/javascript" src="https://pastelariacariri.deliveryon.com.br/assets_admin/plugins/qztray/qz-tray.js"></script>
+<script type="text/javascript" src="https://pastelariacariri.deliveryon.com.br/assets_admin/plugins/qztray/app.js"></script>
+
+
+<script type="text/javascript">
+  var status_entrega = 0;
+  var motivo_cancelamento = '';
+  var auth_dialog;
+
+					$('html, body').animate({
+			        scrollTop: $('.menu-produtos').offset().top
+			    }, 1000);
+
+	
+  // Status Atual das Entregas ao Add Item ao Carrinho
+	function verificaStatusEntrega()
+	{    
+		if(status_entrega == '0'){
+			var alerta = '<h1>Fora de Horário</h1>Desculpe, não estamos realizando entregas ou aceitando pedidos no momento.';
+			return {'status': 0, 'alerta': alerta, 'cod_status': 3}
+
+		} else if(status_entrega == '1'){
+			var alerta = '<h1>Pedido Adiantado</h1>Ainda não iniciamos as entregas do dia (início às 18:30 hs).<br/>Deseja realizar seu pedido adiantado?';
+			return {'status': 1, 'alerta': alerta, 'cod_status': 2}
+
+		} else {
+			return {'status': 2, 'alerta': '', 'cod_status': 1}
+		}
+	}
+
+	function finalizarPedido()
+	{
+    if($('#form_finalizar_pedido').length > 0){
+		  $('#form_finalizar_pedido').submit(); // submete para a tela de finalizar pedido
+    } else {
+      $('input[name="submit"]').click(); // submete o form da tela finalizar pedido
+    }
+	}
+
+	function abrirResumoCarrinho()
+	{
+		$('#vr-itens-cart-modal').text($('#vr-itens-cart').text());
+		$('#modal-resumo-carrinho').modal('show');
+	}
+
+  	function playAudio()
+  	{    
+    	var promise = $('audio')[0].play();
+
+    	if (promise !== undefined){
+	      	promise.then(_ => {
+	        	// Autoplay started!
+	      	}).catch(error => {
+	        	// Autoplay blocked
+	      	});
+		}
+  	}
+
+    var qtdeTimeouts = 0;
+
+    function ajaxVerificaStatusEntrega()
+    {      
+      $.ajax({
+        url: 'https://pastelariacariri.deliveryon.com.br/ajax/ajaxVerificaStatusEntrega',        
+        success: function (r) {          
+          qtdeTimeouts = 0;
+          status_entrega = r.status_entrega;
+          $('.status-entrega').attr('data-statusEntrega', r.cod_status);
+        },
+
+        error: function(r, textStatus, ex) {          
+          if(textStatus == 'timeout'){
+            qtdeTimeouts++;
+
+            if(qtdeTimeouts > 2){
+              location.reload();
+            }
+          }
+        }
+      });
+    }
+
+    ajaxVerificaStatusEntrega();
+    setInterval(function(){
+      ajaxVerificaStatusEntrega();
+    }, 10000);
+
+	
+	$('.detalhar-item').click(function(){
+		$('#detalhar-item-title').text( $(this).siblings('.dproduto').text() );
+		$('#detalhar-item-body').text( $(this).siblings('.hidden-descricao-item').text() );
+		$('#modal-detalhar-item').modal('show');
+	});
+
+	// Google analytics
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-104942477-34', 'auto');
+	ga('send', 'pageview');
+
+</script>
+
+  <script type="text/javascript">
+    new SmartBanner({
+      daysHidden: 7,
+      daysReminder: 14,
+      title: 'DeliveryOn App',
+      author: 'DeliveryOn',
+      button: 'Ver',
+      store: {
+        android: 'Dispon&#237;vel no Google Play',
+        ios: 'Baixar na App Store'
+      },
+      price: {
+        android: 'Gr&#225;tis',
+        ios: 'Gr&#225;tis'
+      },
+      runOnInstall: function() {
+        ga('send', 'event', 'Banner', 'click',  'App Install clicks');
+      }
+    });
+  </script>
+	<!-- Javascripts -->
+	<script src="https://pastelariacariri.deliveryon.com.br/assets/js/sweetalert.min.js"></script>
+	<script type="text/javascript">
+	var processando = false;
+	var old_qtd_produto = 1;
+
+	function parseVal(value, fracionada)
+	{
+		if(fracionada == '1'){
+			return parseFloat(value);
+		} else {
+			return parseInt(value);
+		}
+	}
+
+	function showVal(value, fracionada)
+	{
+		if(fracionada == '1'){
+			return value.toFixed(3).replace('.', ',');
+		} else {
+			return value;
+		}
+	}
+
+	function imprimeItemMesa(id_item, qtde)
+	{
+		$('#PrintScript').remove();
+		$.getJSON( 'https://pastelariacariri.deliveryon.com.br/ajax/ajaxCreatePrintItem/'+ id_item +'/'+ qtde, function (response) {
+			$('body').append(response);
+			jsWebClientPrint.print();
+		});
+	}
+
+	function adicionarProduto(obj)
+	{
+		if(!processando){
+			
+			processando = true;				
+			var item = $(obj).parents('.box-products');
+			var input_qtd = $(item).find('.input-qtd');
+			var obs = $(item).find('.obs-produto');
+
+			if(obs.length == 0){
+				obs = '';
+			} else {
+				obs = $(obs).val();
+			}
+
+			$(item).children('.loader-cart').removeClass('hide');
+			$(item).children('.btn-add-cart').addClass('hide');
+
+			$.post( 'https://pastelariacariri.deliveryon.com.br/ajax/ajaxAddItemCart',
+				{ deliveryT: '180d4a93a1e5ef5041fda3befa65f6e8',
+				'id_produto': $(item).attr('data-id-produto'),
+				'turno': '1',
+				'qtd_produto': $(input_qtd).val(),
+				'obs': obs }, function (r) {
+					
+				if(r['sucesso'] == 1){
+					$('.qtd-itens-cart').text( ('00' + (parseInt($('.qtd-itens-cart').text()) + parseInt(r['qtd_adicional']))).slice(-2) );
+					$('#vr-itens-cart').text( (parseFloat($('#vr-itens-cart').text().replace(',', '.')) + parseFloat(r['preco_adicional'])).toFixed(2).replace('.', ',') );
+					
+											abrirResumoCarrinho();
+										
+				} else {
+					swal({
+						title: 'ERRO!',
+						text: r['msg_erro'],
+						type: 'error',
+						showConfirmButton: true,
+						animation: false,
+						customClass: 'add-cart-error',
+						confirmButtonColor: 'red',
+						html: true
+					});															
+				}
+
+				processando = false;
+				$(item).children('.loader-cart').addClass('hide');
+				$(item).children('.btn-add-cart').removeClass('hide');
+									
+			}, 'json')
+			  
+			.fail(function( r ) {						
+				console.log(r);
+				
+				swal({
+					title: 'ERRO!',
+					text: 'Ocorreu um erro que pode ter sido causado por uma falha na sua internet. Tente novamente em alguns minutos. Se persistir, por favor entre em contato.',
+					type: 'error',
+					showConfirmButton: true,
+					animation: false,
+					customClass: 'add-cart-error',
+					confirmButtonColor: 'red'
+				});
+
+				processando = false;
+				$(item).children('.loader-cart').addClass('hide');
+				$(item).children('.btn-add-cart').removeClass('hide');
+			});
+		}
+	}
+
+	function atualizaSubtotal(operacao, valor, obj_input_qtd, fracionada)
+	{
+		var novo_subtotal = parseFloat($('#vr_subtotal').text().replace('.', '').replace(',', '.'));
+
+		if(operacao == 'incrementa'){
+			novo_subtotal += (fracionada == '1') ? (valor * 0.100) : valor;
+		
+		} else if(operacao == 'decrementa'){
+			novo_subtotal -= (fracionada == '1') ? (valor * 0.100) : valor;
+		
+		} else if(operacao == 'diferenca-produto'){	
+			var vr_unit = parseFloat($('#vr_unit').text().replace('.', '').replace(',', '.'));
+			var qtd = obj_input_qtd.val().replace('.', '').replace(',', '.');
+
+			novo_subtotal = qtd * valor;
+		}
+
+		$('#vr_subtotal').text( novo_subtotal.formatMoney(2, ',', '.') );
+	}
+
+	$('.input-qtd').blur(function(){
+		if($(this).val() <= 0){
+			alert('Informe uma quantidade válida.');
+			$(this).select();
+		} else {
+
+							atualizaSubtotal('diferenca-produto', parseFloat($('#vr_produto').text().replace('.', '').replace(',', '.')), $('.input-qtd'));
+					}
+	});
+	
+	$('.input-qtd').click(function(){
+		$(this).select();
+	});	
+
+	$('.remove-qtd').click(function(e){
+		e.preventDefault();				
+
+		var item = $(this).parents('.box-products');
+		var input_qtd = $(item).find('.input-qtd');
+		var fracionada = $(item).attr('data-fracionada');
+		var min_value = (fracionada == '1') ? 0.100 : 1;
+		var step_value = (fracionada == '1') ? 0.100 : 1;
+
+								
+			if(parseVal($(input_qtd).val().replace(',', '.'), fracionada) > min_value){
+				$(input_qtd).val(showVal(parseVal($(input_qtd).val().replace(',', '.'), fracionada) - step_value, fracionada));
+				old_qtd_produto = $(input_qtd).val();
+				
+				if($(this).parents('.resume-products').length){
+					atualizaSubtotal('decrementa', parseFloat($('#vr_produto').text().replace('.', '').replace(',', '.')), $(input_qtd), fracionada);
+				}
+			}
+
+			});
+
+	$('.add-qtd').click(function(e){
+		e.preventDefault();
+		
+		var item = $(this).parents('.box-products');
+		var input_qtd = $(item).find('.input-qtd');
+		var fracionada = $(item).attr('data-fracionada');
+		var min_value = (fracionada == '1') ? 0.100 : 1;
+		var step_value = (fracionada == '1') ? 0.100 : 1;
+
+					
+			$(input_qtd).val(showVal(parseVal($(input_qtd).val().replace(',', '.'), fracionada) + step_value, fracionada));
+			old_qtd_produto = $(input_qtd).val();
+
+			if($(this).parents('.resume-products').length){
+				atualizaSubtotal('incrementa', parseFloat($('#vr_produto').text().replace('.', '').replace(',', '.')), $(input_qtd), fracionada);
+			}
+
+			});
+
+	$('.btn-add-cart, .btn-build-product').click(function(e){
+		e.preventDefault();
+		var is_atendente = '0';
+
+		var btnCart = this;
+		if($(btnCart).parents('.resume-products').length){
+	 		var item = $(btnCart).parents('.resume-products');
+	 	} else {
+	 		var item = $(btnCart).parents('.box-products');	 		
+	 	}
+		var qtd_produto = $(item).find('.input-qtd').val();
+		var obs = $(item).find('.obs-produto').val();
+
+		if(typeof(obs) == "undefined"){
+			obs = '';
+		}
+
+		var status_entrega = verificaStatusEntrega();
+
+		console.log('click');
+				
+		if(status_entrega.status == '0' && is_atendente == '0'){
+			bootbox.alert(status_entrega.alerta);
+		
+		} else if(status_entrega.status == 1){
+			bootbox.confirm(status_entrega.alerta, function(r){
+				if(r){
+					continuarAddCart(btnCart, item, qtd_produto, obs);
+				}
+			});
+
+		} else {
+			continuarAddCart(btnCart, item, qtd_produto, obs);
+		}
+	});
+
+	function continuarAddCart(btnCart, item, qtd_produto, obs)
+	{
+		var usuario_deslogado = true;
+		var is_atendente = false;
+		var abre_personalizacao_direto = true;
+
+		if(usuario_deslogado){
+			var montar_produto = ($(btnCart).hasClass('btn-build-product')) ? 1 : 0;
+			html_message = '<section class="container-form login-form-modal">'
+
+							+ '<section class="login-form">'																
+
+						 	+ '<h2>Faça Login</h2>'
+							+ '<p>Já é nosso cliente? Preencha os dados abaixo para continuar comprando.</p>'
+
+							+ '<form action="/login/meu_carrinho" method="POST">'
+							+ '<input type="hidden" name="deliveryT" value="180d4a93a1e5ef5041fda3befa65f6e8" />'							
+
+															+ '<input type="hidden" name="id_produto" value="'+ $(item).attr('data-id-produto') +'" />'
+								+ '<input type="hidden" name="qtd_produto" value="'+ qtd_produto +'" />'
+								+ '<input type="hidden" name="obs_produto" value="'+ $('.obs-produto').val() +'" />'
+							 	+ '<input type="hidden" name="montar_produto" value="'+ montar_produto +'" />'
+							
+							 + '<div class="form-group">'
+							 	+ '<label class="control-label">Email</label>'
+							 	+ '<input type="text" name="email" class="form-control" />'
+							 + '</div>'								 
+
+							 + '<div class="form-group">'
+							 	+ '<label class="control-label">Senha</label>'
+							 	+ '<input type="password" name="senha" class="form-control" />'
+							 + '</div>'
+
+							 + '<input type="submit" name="submit" value="Entrar" class="btn btn-success" />'
+							 + '<a href="/redefinir_senha" class="btn btn-link">Esqueci minha senha</a>'								 
+
+						 + '</form></section>'
+						 
+						 + '<div class="both"></div>'
+						 
+						 /* + '<div class="divisoria-horizontal"></div>' */
+						 
+						 + '<div class="both"></div>'
+
+						 + '<section class="login-register">'
+							/*  + '<h2 class="cd5d3fc6cd">Cadastre-se</h2>'
+							 + '<p>Para realizar compras em nosso site você precisa se cadastrar.</p>' */
+
+							 + '<form action="/cadastro/passo1/produtos-ver-10" method="POST">'
+							 + '<input type="hidden" name="deliveryT" value="180d4a93a1e5ef5041fda3befa65f6e8" />'							 								
+
+															+ '<input type="hidden" name="id_produto" value="'+ $(item).attr('data-id-produto') +'" />'
+							 	+ '<input type="hidden" name="qtd_produto" value="'+ qtd_produto +'" />'
+								+ '<input type="hidden" name="obs_produto" value="'+ $('.obs-produto').val() +'" />'
+							 	+ '<input type="hidden" name="montar_produto" value="'+ montar_produto +'" />'
+														 
+							 /* + '<input type="submit" name="cadastrar-modal" value="Quero me cadastrar" class="btn btn-primary btn-circle" />' */
+
+						 + '</section>'
+
+						 + '</form><div class="both"></div></section>';
+
+			bootbox.dialog({
+			  message: html_message,
+			 
+			});
+
+
+		} else if($(btnCart).attr('data-mostrar-dialogo') == '1'){
+
+			if(is_atendente && abre_personalizacao_direto){
+				window.location.href = 'https://pastelariacariri.deliveryon.com.br/produtos/montar/'+ $(item).attr('data-id-produto') +'/'+ qtd_produto.replace(',', '.') +'/'+ encodeURIComponent(obs);
+			} else {
+
+				var html_message = "Esse produto pode ser personalizado:<br/>";
+
+				if($(btnCart).attr('data-permite-adicionais') == 'S'){
+					html_message += '<br/><strong>&bull; Com adicionais</strong></p>';
+				}
+
+				if($(btnCart).attr('data-permite-particoes') == 'S'){
+					html_message += '<br/><strong>&bull; Pode ser dividido em sabores diferentes</strong></p>';
+				}
+
+				html_message += '<br/><br/>Deseja personalizar?';
+
+				bootbox.dialog({
+				  message: html_message,
+				  title: "Informação",
+				  buttons: {
+				    info: {
+				      label: "Adicionar ao carrinho",
+				      className: "btn-danger",
+				      callback: function() {
+				      	adicionarProduto(btnCart);					      	
+				      }
+				    },
+				    main: {
+				      label: "Personalizar",
+				      className: "btn-primary btnPersonalizar",
+				      callback: function() {
+				      	$('.btnPersonalizar').text('Carregando...');
+						window.location.href = 'https://pastelariacariri.deliveryon.com.br/produtos/montar/'+ $(item).attr('data-id-produto') +'/'+ qtd_produto.replace(',', '.') +'/'+ encodeURIComponent(obs);
+				      }
+				    }
+				  }
+				});
+			}
+
+		} else {
+			
+			if($(btnCart).hasClass('btn-build-product')){
+				window.location.href = 'https://pastelariacariri.deliveryon.com.br/produtos/montar/'+ $(item).attr('data-id-produto') +'/'+ qtd_produto.replace(',', '.') +'/'+ encodeURIComponent(obs);
+			} else {
+				if($(item).hasClass('resume-products')){
+					$('#form').submit();
+				} else {
+					adicionarProduto(btnCart);
+				}
+			}
+		}
+	}
+</script>	<script type="text/javascript">		
+
+		$('.input-qtd').focus(function(){
+			if($(this).val() > 0){
+				old_qtd_produto = $(this).val();
+			}
+		});
+	</script>
+	
+</body>
+</html>

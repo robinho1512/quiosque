@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cardápio de Sucos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #e0f7fa;
+      color: #004d40;
+    }
+
+    header {
+      background-color: #00796b;
+      color: white;
+      text-align: center;
+      padding: 24px 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .item {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .item h3 {
+      margin: 0;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #00796b;
+      margin-right: 12px;
+    }
+
+    .cart {
+      background: #fff;
+      border-top: 2px solid #00796b;
+      padding: 20px;
+      margin-top: 40px;
+      border-radius: 12px;
+      box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+      text-align: right;
+    }
+
+    .cart span {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .cart button {
+      background-color: #00796b;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-left: 20px;
+    }
+
+    .cart button:hover {
+      background-color: #004d40;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Quiosque do João 🍍</h1>
+    <p>Escolha seus sucos favoritos!</p>
+  </header>
+
+  <div class="container" id="menu">
+    <!-- Cada item do cardápio -->
+  </div>
+
+  <div class="container cart">
+    <span>Total: R$ <span id="total">0.00</span></span>
+    <button onclick="finalizarPedido()">Pagar</button>
+  </div>
+
+  <script>
+    const sucos = [
+      { nome: "Suco de Laranja", preco: 6.00 },
+      { nome: "Suco de Abacaxi com Hortelã", preco: 7.00 },
+      { nome: "Suco de Açaí com Banana", preco: 8.50 },
+      { nome: "Suco Verde Detox", preco: 7.50 },
+      { nome: "Suco de Manga com Maracujá", preco: 7.00 }
+    ];
+
+    let total = 0;
+
+    const menu = document.getElementById('menu');
+    const totalSpan = document.getElementById('total');
+
+    sucos.forEach((suco, index) => {
+      const div = document.createElement('div');
+      div.className = "item";
+      div.innerHTML = `
+        <div>
+          <h3>${suco.nome}</h3>
+        </div>
+        <div>
+          <span class="price">R$ ${suco.preco.toFixed(2)}</span>
+          <button onclick="adicionar(${index})">Adicionar</button>
+        </div>`;
+      menu.appendChild(div);
+    });
+
+    function adicionar(index) {
+      total += sucos[index].preco;
+      totalSpan.textContent = total.toFixed(2);
+    }
+
+    function finalizarPedido() {
+      alert('Total da compra: R$ ' + total.toFixed(2));
+      window.location.href = 'pagamento.html';
+    }
+  </script>
+
+</body>
+</html>

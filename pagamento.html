@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pagamento</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f1f8e9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 60px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    h2 {
+      text-align: center;
+      color: #388e3c;
+      margin-bottom: 24px;
+    }
+
+    label {
+      display: block;
+      margin: 16px 0 8px;
+      font-weight: bold;
+      color: #2e7d32;
+    }
+
+    select {
+      width: 100%;
+      padding: 12px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 30px;
+      padding: 14px;
+      font-size: 18px;
+      background-color: #43a047;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2e7d32;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Finalizar Pagamento</h2>
+    <form onsubmit="event.preventDefault(); confirmarPagamento();">
+      <label for="modo">Modo de Pagamento:</label>
+      <select id="modo" required>
+        <option value="">Selecione</option>
+        <option value="pix">Pix</option>
+        <option value="dinheiro">Dinheiro</option>
+        <option value="cartao">Cartão</option>
+      </select>
+
+      <label for="forma">Forma de Pagamento:</label>
+      <select id="forma" required>
+        <option value="">Selecione</option>
+        <option value="online">Online</option>
+        <option value="caixa">No caixa</option>
+      </select>
+
+      <button type="submit">Confirmar</button>
+    </form>
+  </div>
+
+  <script>
+    function confirmarPagamento() {
+      const modo = document.getElementById("modo").value;
+      const forma = document.getElementById("forma").value;
+
+      if (modo && forma) {
+        alert(`Pagamento escolhido: ${modo.toUpperCase()} - ${forma === 'online' ? 'Online' : 'No caixa'}`);
+        window.location.href = "obrigado.html";
+      } else {
+        alert("Por favor, selecione todas as opções.");
+      }
+    }
+  </script>
+</body>
+</html>
